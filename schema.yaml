@@ -33,7 +33,7 @@ identifiers: list(include('identifier'), required=False)
 creators: list(include('person'))
 
 # 連絡担当者
-contact_agents: list(include('contact_person'))
+contact_agents: list(include('contact_person'), required=False)
 
 # 出版者
 publisher: include('organization', required=False)
